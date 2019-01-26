@@ -5,9 +5,8 @@
 
 def valid_move?(board, index)
 
-if index.between?(0, 10)
 
-elsif board[index] == "" || board[index] == " " || board[index] == nil
+if board[index] == "" || board[index] == " " || board[index] == nil
 true
 else
 false
